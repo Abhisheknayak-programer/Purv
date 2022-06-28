@@ -1,0 +1,223 @@
+/****************************************/
+/* HEADER SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 1250px) {
+  .search_box .search_input_box {
+    width: 300px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .search_box .search_input_box {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .search_box .search_input_box {
+    width: 160px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header__part_1 {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .header__part_2 {
+    position: relative;
+    height: 10vh;
+    padding: 1rem 2rem;
+  }
+  .nav {
+    background-color: #fff;
+    width: 100%;
+    padding: 1rem 0;
+    height: 90vh;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(-300%);
+    transition: all 0.3s;
+    z-index: 10;
+  }
+  .search_box .search_input_box {
+    width: 300px;
+  }
+  .nav_links {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 5rem;
+  }
+  .navBarActive {
+    transform: translateX(0);
+  }
+  .toggle .line {
+    transition: all 0.3s;
+  }
+  .toggle .line__1 {
+    transform: rotate(-45deg) translate(-5px, 4px);
+  }
+  .toggle .line__2 {
+    opacity: 0;
+  }
+  .toggle .line__3 {
+    transform: rotate(45deg) translate(-7px, -7px);
+  }
+}
+
+@media (max-width: 576px) {
+  .header__part_2 {
+    padding: 1rem;
+  }
+
+  .logoBox a {
+    font-size: 3rem;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 360px) {
+  .search_box .search_input_box {
+    width: 200px;
+  }
+}
+
+/****************************************/
+/* FIRST SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 1210px) {
+  .carousel___part__1 h1 {
+    font-size: 6rem;
+  }
+  .carousel___part__1 p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 1065px) {
+  .carousel___part__1 h1 {
+    font-size: 5rem;
+  }
+  .carousel___part__1 a {
+    padding: 0.8rem 1.6rem;
+    font-size: 1.6rem;
+  }
+  .first_sec_carousel_part {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 950px) {
+  .first_section .carousel___item {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .first_sec_carousel_part {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .first_sec_carousel_part {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .first_section {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .carousel___part__1 h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 435px) {
+  .first_section .carousel___item {
+    padding: 0;
+  }
+}
+
+@media (max-width: 360px) {
+  .carousel___part__1 h1 {
+    font-size: 3rem;
+  }
+  .carousel___part__1 p {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .carousel___part__1 a {
+    font-size: 1.4rem;
+  }
+}
+
+/****************************************/
+/* SECOND SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 992px) {
+  .second_sec_card_row_1 .second_sec_card img {
+    width: 100%;
+  }
+  .second_sec_card img {
+    min-height: 350px;
+  }
+  .second_sec_card_row_3 .second_sec_card img {
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .second_sec_card_row_2,
+  .second_section_col_3_inner {
+    flex-direction: column;
+  }
+  .second_section_col_3_inner .second_sec_card img {
+    width: 100%;
+  }
+  .second_sec_card img {
+    min-height: 200px;
+    height: auto !important;
+  }
+  .second_sec_card h4 {
+    font-size: 1.6rem;
+  }
+  .section__main__header {
+    padding: 1rem 3.5rem;
+  }
+  .section__main__header h3 {
+    font-size: 2.4rem;
+  }
+  .section__main__header a {
+    font-size: 1.6rem;
+  }
+  .second_section {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .section__main__header {
+    padding: 1rem 2rem;
+  }
+  .section__main__header h3 {
+    font-size: 2rem;
+  }
+  .section__main__header a {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .second_sec_card img {
+    min-height: 100px;
+    height: auto !important;
+  }
+}
