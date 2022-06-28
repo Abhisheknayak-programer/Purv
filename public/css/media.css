@@ -203,7 +203,7 @@
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .section__main__header {
     padding: 1rem 2rem;
   }
@@ -219,5 +219,110 @@
   .second_sec_card img {
     min-height: 100px;
     height: auto !important;
+  }
+}
+
+/****************************************/
+/* THIRD SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 1200px) {
+  .product__card {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .section__buttons_group {
+    justify-content: center;
+  }
+}
+
+/****************************************/
+/* FOURTH SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 1200px) {
+  .fourth_sec_card h4 {
+    font-size: 3rem;
+  }
+  .fourth_sec_card p {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .fourth_sec_card {
+    margin-bottom: 4rem;
+  }
+
+  .fourth_sec_card:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/****************************************/
+/* FIFTH SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 576px) {
+  .fifth_section {
+    padding: 2rem 0;
+  }
+}
+
+/****************************************/
+/* SEVENTH SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 576px) {
+  .section__main__header .arrow__boxes {
+    gap: 1rem;
+  }
+}
+
+/****************************************/
+/* EIGHTH SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 992px) {
+  .eighth_sec_image_col .eighthSecImage {
+    position: relative;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+  }
+}
+
+@media (max-width: 576px) {
+  .eighth_section {
+    padding: 2rem 0;
+  }
+}
+
+/****************************************/
+/*  NINETH SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 576px) {
+  .nineth_section {
+    padding: 2rem 0;
+  }
+}
+
+/****************************************/
+/*  TENTH SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 1400px) {
+  .tenth_section .company__main__box {
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .tenth_section {
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .tenth_section .company__main__box .company__image {
+    width: 120px;
   }
 }
