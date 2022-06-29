@@ -1,6 +1,18 @@
 /****************************************/
 /* HEADER SECTION MEDIA QUERIES STARTS */
 /***************************************/
+@media (max-width: 1500px) {
+  .search_box .search_input_box {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .search_box .search_input_box {
+    width: 400px;
+  }
+}
+
 @media (max-width: 1250px) {
   .search_box .search_input_box {
     width: 300px;
