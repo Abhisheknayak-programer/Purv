@@ -326,3 +326,14 @@
     width: 120px;
   }
 }
+/****************************************/
+/* FOOTER SECTION MEDIA QUERIES STARTS */
+/***************************************/
+@media (max-width: 768px) {
+  .footer_subscription_box input {
+    font-size: 1.6rem;
+  }
+  .footer_subscription_box .EmailIconBox {
+    padding: 0.7rem;
+  }
+}

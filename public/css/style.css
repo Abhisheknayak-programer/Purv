@@ -171,7 +171,7 @@ br::selection {
 }
 
 .search_box .search_input_box {
-  width: 400px;
+  width: 600px;
   border-radius: 0.5rem;
   font-size: 1.6rem;
   padding: 1rem;
@@ -251,6 +251,11 @@ br::selection {
   font-size: 2rem;
   color: var(--body-color);
   background-color: var(--primary-color);
+  transition: all 0.3s;
+}
+
+.carousel___part__1 a:hover {
+  background-color: var(--arrows-color);
 }
 
 #first_section .owl-next,
@@ -333,12 +338,12 @@ br::selection {
   text-align: center;
   color: var(--text-color);
   font-size: 2rem;
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   font-weight: 600;
 }
 
 .second_section_col_2_inner .second_sec_card img {
-  height: 450px;
+  height: 460px;
 }
 
 .second_section_col_3_inner {
@@ -358,7 +363,7 @@ br::selection {
 }
 
 .second_sec_card_row_4 .second_sec_card img {
-  height: 450px;
+  height: 460px;
 }
 
 .second_section_col_1,
@@ -368,7 +373,7 @@ br::selection {
 }
 
 .second_sec_card img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 /**************************/
@@ -402,6 +407,10 @@ br::selection {
 
 .product__card {
   padding: 2rem;
+}
+
+.product__card:hover .product__card__inner {
+  background-color: var(--secondary-color);
 }
 
 .product__card__inner {
@@ -640,6 +649,12 @@ br::selection {
   font-size: 3rem;
   background-color: var(--arrows-color);
   border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.footer_subscription_box .EmailIconBox:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
 }
 
 .footer_col_2 a {
@@ -667,7 +682,7 @@ br::selection {
 
 .social__media_box .social_media_item {
   font-size: 3rem;
-  color: var(--header-border-color);
+  color: var(--body-color);
 }
 
 .end_line {
@@ -676,15 +691,4 @@ br::selection {
   font-size: 1.6rem;
   text-align: center;
   padding: 1rem;
-}
-/****************************************/
-/* FOOTER SECTION MEDIA QUERIES STARTS */
-/***************************************/
-@media (max-width: 768px) {
-  .footer_subscription_box input {
-    font-size: 1.6rem;
-  }
-  .footer_subscription_box .EmailIconBox {
-    padding: 0.7rem;
-  }
 }
